@@ -1,0 +1,5 @@
+a = int(input('введите число'))
+for i in range(0,a,1):
+    print((i - a)*' '+ i * '*')
+for i in range(a,0,-1):
+    print((a - i)*' '+ i * '*')
